@@ -1,0 +1,19 @@
+{
+  "name": "idnumbervalidator",
+  "version": "1.0.0",
+  "description": "validator for ID number in RPC (GB 11643-1999) with ID_number validator, Date invalidator and ID_number generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "tastycarb",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.assign": "^4.2.0",
+    "lodash.partial": "^4.2.1"
+  }
+}
