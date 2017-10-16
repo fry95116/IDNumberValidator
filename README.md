@@ -31,11 +31,11 @@ let idNumber = validator.generateIDNumber() //get a random valid IDNumber
 ```
 
 ## API
-- [parseIDNumber()](#parseIDNumber)
-- [generateIDNumber()](#generateIDNumber)
-- [isLeapYear()](#isLeapYear)
-- [isValidDate()](#isValidDate)
-- [getExceptedCRC()](#getExceptedCRC)
+- [parseIDNumber()](#parseidnumberidnumber)
+- [generateIDNumber()](#generateidnumber)
+- [isLeapYear()](#isleapyearyear)
+- [isValidDate()](#isvaliddateyear-month-day)
+- [getExceptedCRC()](#getexceptedcrcidnumber)
 
 ### `parseIDNumber(idNumber)`
 Parse `idNumber` with GB11643-1999.
