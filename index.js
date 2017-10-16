@@ -81,7 +81,7 @@
     if(!isValidDate(result.year, result.month, result.day)) return null
     
     result.seq = parseInt(seq)
-    result.sex = parseInt(sex) % 2 // 1 = male, 2 = female
+    result.sex = parseInt(sex) % 2 // 1 = male, 0 = female
     result.crc = crc
     if(result.crc !== __getExceptedCRC(idNumber)) return null
     
